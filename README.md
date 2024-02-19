@@ -1,7 +1,7 @@
 # Credit-Fraud-in-Skewed-Datasets
 
 <div align="center">
-  <img src="images/image_0.jpg" alt="Image 1">
+  <img src="images/image_0.png" alt="Image 1">
 </div>
 
 ## Project problem and goal: 
@@ -11,8 +11,9 @@ Challenges:
 
 
 
+
 ## About the dataset 
-- The dataset contains transactions made by credit cards in September 2013 by European cardholders.
+- The dataset contains transactions made by credit cards in September 2013 by European cardholders. (Find data [here](https://data.world/raghu543/credit-card-fraud-data))
 - It presents transactions occurring over two days, with 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, with the positive class (frauds) accounting for 0.172% of all transactions.
 - Dataset Attributes:
   - V1 - V28: Numerical features resulting from PCA transformation.
@@ -46,12 +47,12 @@ Both Time and Amount should be scaled like the other columns.
 Applying Synthetic Minority Over-sampling Technique (SMOTE) to balance the dataset.
 
 <div align="center">
-  <img src="images/image_2.png" width="496" height="383" alt="Distribution Before and After SMOTE">
+  <img src="images/image_2.png" alt="Distribution Before and After SMOTE">
 </div>
 Below are the correlation matrices before and after applying SMOTE:
 
 <div align="center">
-  <img src="images/image_3.png" width="496" height="383" alt="Correlation Matrix">
+  <img src="images/image_3.png" alt="Correlation Matrix">
 </div>
 
 **4. Apply different models after oversampling using SMOTE:** 
@@ -62,18 +63,16 @@ Below are the correlation matrices before and after applying SMOTE:
 - AdaBoost: Higher false positives, indicating it incorrectly flagged non-fraud transactions; the precision-recall curve suggests a balance between precision and recall, with a gradual decline.
 
 <div align="center">
-  <img src="images/image_4.png" width="496" height="383" alt="Correlation Matrix">
+  <img src="images/image_4.png" alt="Correlation Matrix">
 </div>  
 
-**4. Try with Neural Network:** 
+**5. Try with Neural Network:** 
 
 The Neural Network has an accuracy of 99.12%, indicating it correctly identifies most transactions. However, its precision is 71.05% and recall is 82.65%, suggesting it's more reliable in detecting fraud than avoiding false alarms. The F1-score of 76.41% reflects a balance between precision and recall. The confusion matrix confirms a high number of correct non-fraud predictions, but with some fraud cases missed, highlighting room for improvement in fraud detection.
 
 <div align="center">
-  <img src="images/image_5.png" width="496" height="383" alt="Correlation Matrix">
+  <img src="images/image_5.png" alt="Correlation Matrix">
 </div>  
-
-
 
 ## Conclusion
 
@@ -88,7 +87,7 @@ Note: Crucial Preliminary Steps:
 ## Files and Directories:
 - README.md: Contains the project description.
 - images/: Directory containing all images and visualization files.
-- ABTest_Netflix_code.ipynb: Jupyter Notebook with project code.
+- Credit_Fraud_code.ipynb: Jupyter Notebook with project code.
 
 ## Authors:
 - Yen Phan
