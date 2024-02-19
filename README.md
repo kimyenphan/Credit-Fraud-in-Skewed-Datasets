@@ -27,7 +27,12 @@ Challenges:
 1. Exploratory Data Analysis
 2. Scaling Features
 3. Implementing Oversampling with SMOTE
-4. Apply different models after oversampling using SMOTE: BaggingClassifier, DecisionTreeClassifier, RandomForestClassifier, AdaBoostClassifier, Neural Network
+4. Apply different models after oversampling using SMOTE:
+  - BaggingClassifier
+  - DecisionTreeClassifier
+  - RandomForestClassifier
+  - AdaBoostClassifier
+  - Neural Network
 
 ## Results and Visualizations of the experiments:
 **1. Exploratory Data Analysis:** 
