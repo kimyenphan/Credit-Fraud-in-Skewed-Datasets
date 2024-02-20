@@ -8,8 +8,9 @@
 With the rise of online shopping and payments, credit card fraud is becoming more common. It's important to utilize machine learning effectively by selecting the appropriate features for detecting fraud. This involves identifying unauthorized use of credit cards for purchases or cash advances, posing a challenge to businesses everywhere to remain vigilant and prevent such activities.
 
 Challenges:
-
-
+- Defining "fraud" precisely is challenging.
+- Even with a clear definition, most charges are legitimate.
+- Many merchants lack expertise in assessing fraud's business impact.
 
 
 ## About the dataset 
